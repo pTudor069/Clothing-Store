@@ -654,7 +654,7 @@ footer a:hover {
 
 #blog {
   padding: 150px 150px 0 150px;
-}
+} 
 
 #blog .blog-box {
   display: flex;
@@ -901,6 +901,28 @@ footer a:hover {
   }
 
   #prodetails .single-pro-details {
+    width: 100%;
+  }
+
+  /* Blog Page */
+
+  #blog {
+    padding: 100px 20px 0 20px;
+  }
+
+  #blog .blog-box {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+  }
+
+  #blog .blog-img {
+    width: 100%;
+    margin-right: 0px;
+    margin-bottom: 30px;
+  }
+
+  #blog .blog-details {
     width: 100%;
   }
 
